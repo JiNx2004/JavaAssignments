@@ -21,7 +21,7 @@ public class Q9 {
         int z = sc.nextInt();
         if(x==y||x==z||y==z){
           condition=true;
-          System.out.println("Please pick 3 unique digits ");
+          System.out.println("Please pick 3 unique digits so as to generate unique combinations ");
         }
         else{
           condition = false;
