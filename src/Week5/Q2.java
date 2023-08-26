@@ -1,3 +1,4 @@
+//Program to check if two strings are rotationally equivalent
 package Week5;
 import java.util.Scanner;
 public class Q2 {

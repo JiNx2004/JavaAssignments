@@ -1,3 +1,4 @@
+//Program to count occurences of each charecter in a string
 package Week5;
 import java.util.Scanner;
 

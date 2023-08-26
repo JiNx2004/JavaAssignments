@@ -1,3 +1,4 @@
+//Program to check if a given string is a palindrome
 package Week5;
 import java.util.Scanner;
 

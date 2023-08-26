@@ -1,3 +1,4 @@
+//Program to check whether 2 numbers are equal , their sum or difference is equal to 5
 package Week5;
 import java.util.Scanner;
 

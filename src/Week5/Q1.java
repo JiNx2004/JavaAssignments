@@ -1,3 +1,4 @@
+//Program to print mirror image of string
 package Week5;
 import java.util.Scanner;
 public class Q1 {

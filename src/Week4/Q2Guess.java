@@ -1,3 +1,4 @@
+//Program to make the user guess a randomly generated number
 import java.lang.Math;
 import java.util.Scanner;
 public class Q2Guess {

@@ -1,3 +1,4 @@
+//Password Validator
 import java.util.Scanner;
 
 public class Q6Password {

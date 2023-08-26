@@ -1,3 +1,4 @@
+//Program to print even elements of an array
 package Week5;
 import java.util.Scanner;
 

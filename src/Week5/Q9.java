@@ -1,3 +1,4 @@
+//Program to print unique combinations from 3 digits
 package Week5;
 
 import java.util.Scanner;

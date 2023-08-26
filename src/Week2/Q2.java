@@ -1,3 +1,4 @@
+//Program to print even or odd
 import java.util.Scanner;
 public class Q2 {
 

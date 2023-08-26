@@ -1,3 +1,4 @@
+//Program to understand bitwise operators
 public class Q4 {
   public static void main(String args[]) {
     int a = 60;	/* 60 = 0011 1100 */
