@@ -5,17 +5,33 @@ import java.util.Scanner;
 
 public class Q10 {
   void unique(int arr[]){
+    int arrr[];
+    arrr=new int[50];
+    for(int i = 0;i<arr.length;i++){
+      for(int j = 0 ;j<arr.length;j++){
+        if(arr[i]==arr[j]){
+          arr[i]++;
+        }
+      }
+    }
+    for(int i = 0 ; i<arrr.length;i++){
+      if(arr[i]==1){
+        System.out.println(arr[i]);
+      }
+    }
 
   }  
   public static void main(String args[]){
-    int arr[]
+    int arr[];
     arr = new int[15];
-    Scanner sc = new Scanner(System.in);
-    for(int i = 0;i<15;i++){
-      System.out.println("Enter element "+i+":");
-      
+    try (Scanner sc = new Scanner(System.in)) {
+      for(int i = 0;i<15;i++){
+        System.out.println("Enter element "+i+":");
+        arr[i]= sc.nextInt();
+      }
     }
-
+    Q10 obj = new Q10();
+    obj.unique(arr);
 
   }
 }
