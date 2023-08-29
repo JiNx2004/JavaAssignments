@@ -10,12 +10,12 @@ public class Q10 {
     for(int i = 0;i<arr.length;i++){
       for(int j = 0 ;j<arr.length;j++){
         if(arr[i]==arr[j]){
-          arr[i]++;
+          arrr[i]++;
         }
       }
     }
-    for(int i = 0 ; i<arrr.length;i++){
-      if(arr[i]==1){
+    for(int i = 0 ; i<arr.length;i++){
+      if(arrr[i]==1){
         System.out.println(arr[i]);
       }
     }
