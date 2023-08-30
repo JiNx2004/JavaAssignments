@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Q3 {
   void even(int Arr[]){
+    System.out.println("Even elements are :");
     for(int j = 0 ; j<Arr.length;j++){
       if(Arr[j]%2==0){
-        System.out.println("Even elements are :"+Arr[j]);
+        System.out.println(Arr[j]);
       }
     }
   }
