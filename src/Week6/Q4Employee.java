@@ -6,6 +6,7 @@ public class Q4Employee {
   }
   void getSalary(){
     int salary = 10000;
+    System.out.println("Salary : "+salary);
   }
   public static void main(String args[]){
   HRManager obj = new HRManager();
