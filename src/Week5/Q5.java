@@ -8,7 +8,7 @@ public class Q5 {
       if(y%i==0){
         return false;
       }
-      if(i==1){
+      if(y==1){
         return false;
       }
       

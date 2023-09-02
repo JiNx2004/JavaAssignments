@@ -14,7 +14,7 @@ public class Q4 {
       for (int i = str.length() - 1; i >= 0; i--) {
       	rev = rev + str.charAt(i);
       }
-      if (str.equals(rev)) {
+      if (str.equalsIgnoreCase(rev)) {
       	ans = true;
       }
       return ans;

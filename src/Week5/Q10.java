@@ -14,6 +14,7 @@ public class Q10 {
         }
       }
     }
+    System.out.println("Unique elements are: ");
     for(int i = 0 ; i<arr.length;i++){
       if(arrr[i]==1){
         System.out.println(arr[i]);
