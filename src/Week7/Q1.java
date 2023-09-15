@@ -59,5 +59,6 @@ public class Q1 {
     public static void main(String[] args) {
         RandomNumberGenerator generatorThread = new RandomNumberGenerator();
         generatorThread.start();
+        System.out.println("hello");
     }
 }
