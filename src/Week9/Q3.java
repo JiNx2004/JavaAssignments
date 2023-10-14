@@ -1,67 +1,30 @@
 package Week9;
 
 import javax.swing.*;
-
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 public class Q3 {
     public static void main(String[] args) {
-        // Create a JFrame (window)
-        JFrame frame = new JFrame("Swing Menu");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 300);
+        JFrame f = new JFrame("Swing Menu");
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(400, 300);
 
-        // Create a JMenuBar
-        JMenuBar menuBar = new JMenuBar();
+        JMenuBar mb = new JMenuBar();
+        JMenu m = new JMenu("File");
+        JMenuItem open = new JMenuItem("Open");
+        JMenuItem save = new JMenuItem("Save");
+        JMenuItem exit = new JMenuItem("Exit");
 
-        // Create a JMenu
-        JMenu fileMenu = new JMenu("File");
+        open.addActionListener(e -> JOptionPane.showMessageDialog(f, "Open File selected."));
+        save.addActionListener(e -> JOptionPane.showMessageDialog(f, "Save File selected."));
+        exit.addActionListener(e -> System.exit(0));
 
-        // Create JMenuItems for the File menu
-        JMenuItem openMenuItem = new JMenuItem("Open");
-        JMenuItem saveMenuItem = new JMenuItem("Save");
-        JMenuItem exitMenuItem = new JMenuItem("Exit");
+        m.add(open);
+        m.add(save);
+        m.addSeparator();
+        m.add(exit);
 
-        // Add ActionListeners to the File menu items
-        openMenuItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(frame, "Open File selected.");
-            }
-        });
-
-        saveMenuItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(frame, "Save File selected.");
-            }
-        });
-
-        exitMenuItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
-            }
-        });
-
-        // Add File menu items to the File menu
-        fileMenu.add(openMenuItem);
-        fileMenu.add(saveMenuItem);
-        fileMenu.addSeparator(); // Add a separator line
-        fileMenu.add(exitMenuItem);
-
-        // Add the File menu to the menu bar
-        menuBar.add(fileMenu);
-
-        // Set the menu bar for the frame
-        frame.setJMenuBar(menuBar);
-
-        // Center the frame on the screen
-        frame.setLocationRelativeTo(null);
-
-        // Make the frame visible
-        frame.setVisible(true);
+        mb.add(m);
+        f.setJMenuBar(mb);
+        f.setLocationRelativeTo(null);
+        f.setVisible(true);
     }
 }
-

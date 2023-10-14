@@ -14,7 +14,7 @@ public class Q1 extends JFrame {
         add(label);
 
         // Set the size of the JFrame
-        setSize(300, 100);
+        setSize(300,100);
 
         // Set the default close operation
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
