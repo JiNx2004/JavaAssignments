@@ -1,3 +1,5 @@
+package Week2;
+
 //Program to print a string
 public class Q1 {
   public static void main(String args[]){

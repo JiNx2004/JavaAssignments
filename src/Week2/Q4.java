@@ -1,3 +1,5 @@
+package Week2;
+
 //Program to understand bitwise operators
 public class Q4 {
   public static void main(String args[]) {

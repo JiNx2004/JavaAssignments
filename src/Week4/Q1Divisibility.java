@@ -1,3 +1,5 @@
+package Week4;
+
 //Program to check divisibility of numbers from 1000 to 2000 both inclusive by 5&8.
 public class Q1Divisibility{
   public static void main(String[]args){

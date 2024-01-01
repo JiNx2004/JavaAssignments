@@ -1,3 +1,4 @@
+package Week4;
 //Program to reverse a string
 import java.util.Scanner;
 

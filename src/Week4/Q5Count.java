@@ -1,3 +1,4 @@
+package Week4;
 //Program to count number of digits and alphabets in a string
 import java.util.Scanner;
 

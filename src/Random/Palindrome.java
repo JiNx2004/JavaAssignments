@@ -1,3 +1,5 @@
+package Random;
+
 // Driver Class
 class Palindrome {
 	// main function

@@ -1,3 +1,4 @@
+package Week4;
 //Program to print a star pattern
 public class Q3Pattern {
   public static void main(String args[]){
